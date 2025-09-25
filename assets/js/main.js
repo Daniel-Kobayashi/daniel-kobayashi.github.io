@@ -196,9 +196,9 @@
         layoutMode: 'fitRows'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let portfolioFilters = select('#portfolio-filters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#portfolio-filters li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
@@ -233,6 +233,68 @@
    * Portfolio details slider
    */
   new Swiper('.portfolio-details-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+  
+  /**
+   * life isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let lifeContainer = select('.life-container');
+    if (lifeContainer) {
+      let lifeIsotope = new Isotope(lifeContainer, {
+        itemSelector: '.life-item',
+        layoutMode: 'fitRows'
+      });
+
+      let lifeFilters = select('#life-filters li', true);
+
+      on('click', '#life-filters li', function(e) {
+        e.preventDefault();
+        lifeFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        lifeIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+      }, true);
+    }
+
+  });
+
+
+  /**
+   * Initiate life lightbox 
+   */
+  const lifeLightbox = GLightbox({
+    selector: '.life-lightbox'
+  });
+
+  /**
+   * Initiate life details lightbox 
+   */
+  const lifeDetailsLightbox = GLightbox({
+    selector: '.life-details-lightbox',
+    width: '90%',
+    height: '90vh'
+  });
+
+  /**
+   * life details slider
+   */
+  new Swiper('.life-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
