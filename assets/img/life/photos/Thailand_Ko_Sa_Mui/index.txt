@@ -1,0 +1,18 @@
+<img src="assets/img/life/fashion2.jpg" class="img-fluid" alt="">
+<a href="assets/img/life/photo/Thailand_Ko_Sa_Mui/IMG_0062.JPG" data-gallery="lifeGallery" class="life-lightbox" title=""><i class="bx bx-zoom-in"></i></a> 
+<img src="assets/img/life/fashion2.jpg" class="img-fluid" alt="">
+<a href="assets/img/life/photo/Thailand_Ko_Sa_Mui/IMG_0063.JPG" data-gallery="lifeGallery" class="life-lightbox" title=""><i class="bx bx-zoom-in"></i></a> 
+<img src="assets/img/life/fashion2.jpg" class="img-fluid" alt="">
+<a href="assets/img/life/photo/Thailand_Ko_Sa_Mui/IMG_0094.JPG" data-gallery="lifeGallery" class="life-lightbox" title=""><i class="bx bx-zoom-in"></i></a> 
+<img src="assets/img/life/fashion2.jpg" class="img-fluid" alt="">
+<a href="assets/img/life/photo/Thailand_Ko_Sa_Mui/IMG_0117.JPG" data-gallery="lifeGallery" class="life-lightbox" title=""><i class="bx bx-zoom-in"></i></a> 
+<img src="assets/img/life/fashion2.jpg" class="img-fluid" alt="">
+<a href="assets/img/life/photo/Thailand_Ko_Sa_Mui/IMG_0121.JPG" data-gallery="lifeGallery" class="life-lightbox" title=""><i class="bx bx-zoom-in"></i></a> 
+<img src="assets/img/life/fashion2.jpg" class="img-fluid" alt="">
+<a href="assets/img/life/photo/Thailand_Ko_Sa_Mui/IMG_0127.JPG" data-gallery="lifeGallery" class="life-lightbox" title=""><i class="bx bx-zoom-in"></i></a> 
+<img src="assets/img/life/fashion2.jpg" class="img-fluid" alt="">
+<a href="assets/img/life/photo/Thailand_Ko_Sa_Mui/IMG_0207.JPG" data-gallery="lifeGallery" class="life-lightbox" title=""><i class="bx bx-zoom-in"></i></a> 
+<img src="assets/img/life/fashion2.jpg" class="img-fluid" alt="">
+<a href="assets/img/life/photo/Thailand_Ko_Sa_Mui/IMG_0214.JPG" data-gallery="lifeGallery" class="life-lightbox" title=""><i class="bx bx-zoom-in"></i></a> 
+<img src="assets/img/life/fashion2.jpg" class="img-fluid" alt="">
+<a href="assets/img/life/photo/Thailand_Ko_Sa_Mui/IMG_0216.JPG" data-gallery="lifeGallery" class="life-lightbox" title=""><i class="bx bx-zoom-in"></i></a> 
